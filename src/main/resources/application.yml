@@ -1,6 +1,9 @@
 server:
   port: 8071
 
+encrypt:
+  key: 0192c5f0-dc9c-7b2b-8ec7-e30b7947a9da
+
 spring:
   application:
     name: config-server
@@ -19,4 +22,3 @@ spring:
 #        native:
 #          search-locations: "classpath:/config"
 #          search-locations: "file:///path//to//folder"
-
