@@ -4,6 +4,10 @@ server:
 encrypt:
   key: 0192c5f0-dc9c-7b2b-8ec7-e30b7947a9da
 
+logging:
+  pattern:
+    level: "%5p [${spring.application.name},%X{trace_id},%X{span_id]"
+
 management:
   endpoints:
     web:
